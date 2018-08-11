@@ -3,10 +3,10 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-<title>Magic Zoom</title>
+<title>Magic Zoom Plus</title>
 
-<link href="magiczoom/magiczoom.css" rel="stylesheet" type="text/css" media="screen"/>
-<script src="magiczoom/magiczoom.js" type="text/javascript"></script>
+<link href="magiczoomplus/magiczoomplus.css" rel="stylesheet" type="text/css" media="screen"/>
+<script src="magiczoomplus/magiczoomplus.js" type="text/javascript"></script>
 
 <style type="text/css">
     html { position: relative; min-height: 100%; }
@@ -435,11 +435,11 @@
         <button class="cfg-btn" onclick="MagicZoom.next('Zoom-1')">Next</button>
         <button class="cfg-btn" onclick="MagicZoom.zoomIn('Zoom-1')">Zoom In</button>
         <button class="cfg-btn" onclick="MagicZoom.zoomOut('Zoom-1')">Zoom Out</button>
-        <button class="cfg-btn" onclick="MagicZoom.expand('Zoom-1')" title="Plus version only." disabled="true">Expand</button>
+        <button class="cfg-btn" onclick="MagicZoom.expand('Zoom-1')" title="Plus version only." >Expand</button>
     </div>
 
     <div class="app-figure" id="zoom-fig">
-        <a id="Zoom-1" class="MagicZoom" title="Show your product in stunning detail with Magic Zoom."
+        <a id="Zoom-1" class="MagicZoom" title="Show your product in stunning detail with Magic Zoom Plus."
             href="https://magictoolbox.sirv.com/images/magiczoomplus/jeans-1-z.jpg"
         >
             <img src="https://magictoolbox.sirv.com/images/magiczoomplus/jeans-1-z.jpg?scale.height=400" alt=""/>
@@ -593,52 +593,52 @@
         <tr>
             <td>expand</td>
             <td>
-                <select name="expand" disabled="true">
+                <select name="expand" >
                     <option selected="selected" value="window">window</option>
                     <option value="fullscreen">fullscreen</option>
                     <option value="off">off</option>
-                    <option selected="selected">(Plus version only)</option>
+                    
                 </select>
             </td>
         </tr>
         <tr>
             <td>expandZoomMode</td>
             <td>
-                <select name="expandZoomMode" disabled="true">
+                <select name="expandZoomMode" >
                     <option selected="selected" value="zoom">zoom</option>
                     <option value="magnifier">magnifier</option>
                     <option value="off">off</option>
-                    <option selected="selected">(Plus version only)</option>
+                    
                 </select>
             </td>
         </tr>
         <tr>
             <td>expandZoomOn</td>
             <td>
-                <select name="expandZoomOn" disabled="true">
+                <select name="expandZoomOn" >
                     <option selected="selected" value="click">click</option>
                     <option value="always">always</option>
-                    <option selected="selected">(Plus version only)</option>
+                    
                 </select>
             </td>
         </tr>
         <tr>
             <td>expandCaption</td>
             <td>
-                <select name="expandCaption" disabled="true">
+                <select name="expandCaption" >
                     <option selected="selected" value="true">true</option>
                     <option value="false">false</option>
-                    <option selected="selected">(Plus version only)</option>
+                    
                 </select>
             </td>
         </tr>
         <tr>
             <td>closeOnClickOutside</td>
             <td>
-                <select name="closeOnClickOutside" disabled="true">
+                <select name="closeOnClickOutside" >
                     <option selected="selected" value="true">true</option>
                     <option value="false">false</option>
-                    <option selected="selected">(Plus version only)</option>
+                    
                 </select>
             </td>
         </tr>
@@ -730,19 +730,19 @@
         </tr>
         <tr>
             <td>textExpandHint</td>
-            <td><input type="text" name="textExpandHint" value="Click to expand" disabled="true"></td>
+            <td><input type="text" name="textExpandHint" value="Click to expand" ></td>
         </tr>
         <tr>
             <td>textBtnClose</td>
-            <td><input type="text" name="textBtnClose" value="Close" disabled="true"></td>
+            <td><input type="text" name="textBtnClose" value="Close" ></td>
         </tr>
         <tr>
             <td>textBtnNext</td>
-            <td><input type="text" name="textBtnNext" value="Next" disabled="true"></td>
+            <td><input type="text" name="textBtnNext" value="Next" ></td>
         </tr>
         <tr>
             <td>textBtnPrev</td>
-            <td><input type="text" name="textBtnPrev" value="Previous" disabled="true"></td>
+            <td><input type="text" name="textBtnPrev" value="Previous" ></td>
         </tr>
         </table>
 
@@ -770,7 +770,7 @@
         </tr>
         <tr>
             <td>textExpandHint</td>
-            <td><input type="text" name="textExpandHint" value="Tap to expand" disabled="true"></td>
+            <td><input type="text" name="textExpandHint" value="Tap to expand" ></td>
         </tr>
         </table>
         </form>
